@@ -1,0 +1,34 @@
+.panel {
+	border-radius: 2px;
+	margin: 5px;
+	box-shadow: 0 0 2px rgba(0, 0, 0, 0.2), 0 2px 1px rgba(0, 0, 0, 0.2);
+	overflow:hidden;
+	.panel-heading {
+		padding: 7px 10px;
+		background: rgba(0, 0, 0, 0.1);
+	}
+	.panel-body {
+		padding: 7px 10px;
+	}
+}
+.panel-primary {
+	.panel-heading {
+		background: #446fbd;
+		color: white;
+	}
+}
+.panel-info{
+	border-left:3px solid #446fdb;
+	.panel-heading {
+		background: transparent;
+		color: #3f375a;;
+	}
+}
+.panel-warn {
+	border-left: 3px solid #e85c26;
+	.panel-heading {
+		background: transparent;
+		color: #40312c;
+		;
+	}
+}

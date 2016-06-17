@@ -1,0 +1,66 @@
+@import "https://fonts.googleapis.com/css?family=Lato|Montserrat|Open+Sans|Roboto|Source+Sans+Pro";
+body {
+  font-family: "Source Sans Pro", sans-serif; }
+
+.panel {
+  border-radius: 2px;
+  margin: 5px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.2), 0 2px 1px rgba(0, 0, 0, 0.2);
+  overflow: hidden; }
+  .panel .panel-heading {
+    padding: 7px 10px;
+    background: rgba(0, 0, 0, 0.1); }
+  .panel .panel-body {
+    padding: 7px 10px; }
+
+.panel-primary .panel-heading {
+  background: #446fbd;
+  color: white; }
+
+.panel-info {
+  border-left: 3px solid #446fdb; }
+  .panel-info .panel-heading {
+    background: transparent;
+    color: #3f375a; }
+
+.panel-warn {
+  border-left: 3px solid #e85c26; }
+  .panel-warn .panel-heading {
+    background: transparent;
+    color: #40312c; }
+
+.btn {
+  padding: .5em .7em;
+  display: inline-block;
+  font-size: inherit;
+  font-family: inherit;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin: 5px;
+  vertical-align: top;
+  cursor: pointer;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  box-shadow: inset 0 0 1px rgba(255, 255, 255, 0.5);
+  background-color: #fafafa;
+  color: #222021;
+  background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.1));
+  text-decoration: none; }
+  .btn:focus {
+    outline: 0;
+    box-shadow: 0 0 3px #446fed, inset 0 0 1px rgba(255, 255, 255, 0.5); }
+  .btn.btn-primary {
+    color: white;
+    background-color: #446fbd; }
+  .btn.btn-success {
+    color: white;
+    background-color: #22a55e; }
+  .btn.btn-important {
+    color: white;
+    background-color: #ff007f; }
+  .btn:not([disabled]):active {
+    background-image: linear-gradient(0deg, transparent, rgba(0, 0, 0, 0.1)); }
+  .btn[disabled]:not([disabled="false"]), .btn[disabled="true"] {
+    opacity: .4;
+    cursor: not-allowed; }
+
+/*# sourceMappingURL=base.css.map */
